@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Author:jiang
 # 2020/10/27 14:35
-downloadnum = 6  # 设置 downloadnum=False全量下载
+downloadnum = 7  # 设置 downloadnum=False全量下载
 
 from util.log import logger as logging
 from util.mysql import getStoryNum, getDownLoadUrl, getStoryText, getAllStoryText
@@ -9,8 +9,6 @@ from util.get_url import get_url
 from util.downLoadStory import downLoadStory
 from config import config
 from util import writetext
-
-
 def main():
     allUrl = get_url(config.url)
     if downloadnum:

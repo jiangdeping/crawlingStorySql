@@ -30,5 +30,6 @@ def downLoadStory(url):
         new_result = result[0].replace("<br/>", "")
         new_result.lstrip("")
         new_result = re.sub(' +', '\n  ', new_result)
+        print(new_result)
         insertStory(new_url, new_result)
     return stroy_text

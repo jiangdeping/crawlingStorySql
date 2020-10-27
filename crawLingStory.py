@@ -17,7 +17,6 @@ def main():
         url = allUrl[0:downloadnum]
     else:
         url = allUrl
-    print(url)
     story_num = getStoryNum()
     max_num = story_num["max"]
     count_num = story_num["count"]

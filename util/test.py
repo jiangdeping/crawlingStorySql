@@ -10,3 +10,4 @@ import requests
 url = config.url
 res = requests.get(url)
 print(res.text)
+print(hello)

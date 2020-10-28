@@ -2,23 +2,22 @@
 # Author:jiang
 import re
 import requests, re
-from util.mysql import insertStory
+from mysql.storyMysql import insertStory
 from util.log import logger as logging
 from config.config import user_Agent
-
-
-def downLoadStory(url):
+from mysql.allStoryUrlMysql import getSrotyUrl
+def downLoadStory(storyno,urls):
     requests.adapters.DEFAULT_RETRIES = 5
     s = requests.session()
     s.keep_alive = False
     stroy_text = {}
-    for k in url:
-        new_url = "http://m.qishudu.com" + k + ".html"
+    for i in urls:
+        url="http://m.qishudu.com" + i + ".html"
         flag = True
         while flag:
             try:
                 user_agent = user_Agent()
-                res = s.get(new_url, headers=user_agent)
+                res = s.get(url, headers=user_agent)
                 flag = False
                 # print(res.headers["User-Agent"])
                 # logging.info(res.headers["User-Agent"])
@@ -30,6 +29,5 @@ def downLoadStory(url):
         new_result = result[0].replace("<br/>", "")
         new_result.lstrip("")
         new_result = re.sub(' +', '\n  ', new_result)
-        print(new_result)
-        insertStory(new_url, new_result)
+        insertStory(url,new_result,storyno)
     return stroy_text

@@ -2,6 +2,7 @@
 #Author:jiang
 #2020/10/28 17:01
 from mysql.connectMysql import con_db
+from util.handleChapterNum import handleChaprerNum
 def getStoryNo():
     storyno=[]
     db = con_db()
@@ -12,7 +13,19 @@ def getStoryNo():
     for i in result:
         storyno.append(i[0])
     return storyno
-def getStoryChapterNum(storyno):
+
+def getStoryText(chapternums):
+    dict={}
+    db = con_db()
+    cursor = db.cursor()
+    for chapternum in chapternums:
+        sql = "SELECT  chapter,text FROM STORY  WHERE CHAPTER_NUM=%s"%chapternum
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        for i in result:
+            dict[i[0]]=i[1]
+    return dict
+def getAllChapterNum(storyno):#获取所有章节
     chapternum=[]
     db = con_db()
     cursor = db.cursor()
@@ -22,13 +35,41 @@ def getStoryChapterNum(storyno):
     for i in result:
         chapternum.append(i[0])
     return chapternum
-def getStoryText(chapternums):
-    dict={}
+def getNoDownLoadChapternum(storyno):#获取未下载的故事章节
+    chapternum=[]
     db = con_db()
     cursor = db.cursor()
-    for chapternum in chapternums:
-        sql = "SELECT  chapter,text FROM STORY  WHERE CHAPTER_NUM=%s"%chapternum
+    sql ="select chapter_num from story where story_no=%s and state=0 ORDER BY chapter_num"%(storyno)
+    cursor.execute(sql)
+    result=cursor.fetchall()
+    for i in result:
+        chapternum.append(i[0])
+    return chapternum
+def getDownLoadChapternum(storyno):#获取需要下载的章节
+    db = con_db()
+    cursor = db.cursor()
+    allnums=getAllChapterNum(storyno)
+    downloadchapternum=getNoDownLoadChapternum(storyno)
+    count=len(allnums)
+    maxchapternum=allnums[len(allnums)-1]
+    notdownloadsql ="select count(*) from story where story_no=%s and state=0"%storyno
+    cursor.execute(notdownloadsql)
+    notdownloadsql = cursor.fetchall()[0][0] #统计未下载的个数
+    maxchapternum_sql ="select state from story where chapter_num=%s"%maxchapternum
+    cursor.execute(maxchapternum_sql)
+    maxchapternum_state=cursor.fetchall()[0][0]
+    if notdownloadsql<count and maxchapternum_state==1: #全部下载
+        return allnums
+    elif notdownloadsql==count: #全部下载
+        return allnums
+    else:
+        return handleChaprerNum(downloadchapternum)
+def changeState(nums):
+    db = con_db()
+    cursor = db.cursor()
+    for i in nums:
+        sql="update story set state=1 where chapter_num =(%s)"%i
         cursor.execute(sql)
-        result = cursor.fetchall()
-s=getStoryChapterNum(82785)
-getStoryText(s)
+    db.commit()
+    db.close()
+

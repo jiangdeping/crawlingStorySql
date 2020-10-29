@@ -86,13 +86,22 @@ def getStoryNum(storyno):
     count_sql = "SELECT count(*) FROM STORY where story_no=%s"%(storyno)
     cursor.execute(count_sql)
     count = cursor.fetchall()[0][0]  # 多少条数据
-    max_sql = "select MAX(chapter_num) FROM STORY where story_no=%s"%(storyno)
-    cursor.execute(max_sql)
-    max = cursor.fetchall()[0][0]
-    dict["max"] = max
-    dict["count"] = count
-    return dict
+    return count
     db.close()
+# def judgeUrlExist(url): #url存在返回Fasle
+#     urls=[]
+#     db = con_db()
+#     cursor = db.cursor()
+#     new_url="http://m.qishudu.com"+url+".html"
+#     sql = "SELECT * FROM STORY WHERE url='{}'".format(new_url)
+#     cursor.execute(sql)
+#     result = cursor.fetchall()
+#     if len(result) > 0:
+#         return False
+#     else:
+#         return True
+# #     db.close()
+
 def getDownLoadUrl(urls):
     print(urls)
     downloadurl = []

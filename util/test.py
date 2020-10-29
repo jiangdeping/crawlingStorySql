@@ -11,7 +11,25 @@ import re
 # for k,v in dic.items():
 #     print(k,v)
 
-
-str=str(12)
-s=str.zfill(8)
-print(s)
+str=['8278400002', '8278400003', '8278400004','8278400005','8278400006','8278400007']
+str=['8278400002', '8278400003', '8278400008','8278400009','82784000010','82784000011']
+def ll():
+    str=['8278400002', '8278400003', '8278400008','8278400009','8278400010','8278400011']
+    str1=['8278400002', '8278400003', '8278400004','8278400005','8278400006','8278400007']
+    newstr=[]
+    last_str=str[len(str)-1]
+    first_str=False
+    for i in range(len(str)):
+        if i<len(str)-1:
+            if int(str[i+1])-int(str[i])>1:
+                first_str=str[i]
+                break
+        else:
+            newstr=str
+    if first_str:
+        for i in range(int(first_str),int(last_str)):
+            print(i)
+            newstr.append(i+1)
+    # if int(first_str)==int(str[])
+    return newstr
+print(ll())

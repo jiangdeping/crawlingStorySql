@@ -12,8 +12,6 @@ def inertStoryUrl(storyNo,storyTitle,storyUrl):
     msg="小说"+storyTitle+"新增入库"
     logging.info(msg)
     db.close
-def judgeStoryUrlExist(storyNo):
-    pass
 def getSrotyUrl(num):
     db=con_db()
     cursor=db.cursor()

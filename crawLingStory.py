@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Author:jiang
 # 2020/10/27 14:35
-downloadnum=4  # 设置 downloadnum=False全量下载
+downloadnum=5  # 设置 downloadnum=False全量下载
 storynums=3  #下载的故事个数 storynum=Fasle 全量下载
 from util.log import logger as logging
 from mysql.storyMysql import getStoryNum, getDownLoadUrl, getStoryTitle,getAllStoryText,getStoryText
@@ -19,32 +19,23 @@ def main():
             else:
                 url = urls
             storytitle=getStoryTitle(storyno)
-            story_num = getStoryNum(storyno)
-            max_num = story_num["max"]
-            count_num = story_num["count"]
-            msg1="max_num =="+str(max_num)
-            msg2="count_num =="+str(count_num)
-            logging.info(msg1)
-            logging.info(msg2)
+            count_num = getStoryNum(storyno)
+            msg="count_num =="+str(count_num)
+            logging.info(msg)
             logging.info(len(url))
             if count_num == len(url):
                 msg="小说- - -"+storytitle+"- - -未更新"
                 logging.info(msg)
             elif count_num < len(url):
-                if max_num == len(url):
-                    downLoadUrl = getDownLoadUrl(url)
-                    downLoadStory(storyno,downLoadUrl)
-                    dict = getAllStoryText()  # 获取全量小说
-                    if dict:
-                        storyWriteTxt(dict,storyno,flag=0)
-                else:
-                    downLoadUrl = url[count_num:len(url)]
-                    msg3="downloadUrl%s"%downLoadUrl
-                    logging.info(msg3)
-                    downLoadStory(storyno,downLoadUrl)
-                    dict = getStoryText(downLoadUrl)  # 获取增量小说
-                    if dict:
-                        storyWriteTxt(dict,storyno,flag=1)
+                downLoadUrl = getDownLoadUrl(url)
+                downLoadStory(storyno,downLoadUrl)
+                storyWriteTxt(storyno)
+                # dict = getAllStoryText()  # 获取全量小说
+                # if dict:
+                #     storyWriteTxt(dict,storyno,flag=0)
+                # dict = getStoryText(downLoadUrl)  # 获取增量小说
+                # if dict:
+                #     storyWriteTxt(dict,storyno,flag=1)
 if __name__ == '__main__':
     main()
 

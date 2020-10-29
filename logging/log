@@ -24425,3 +24425,149 @@
 2020/10/28 05:57:46 PM - DownLoadStory - INFO - 8278300004
 2020/10/28 05:57:46 PM - DownLoadStory - INFO - 更新小说- -伯爵大人有点甜- -第4章
 2020/10/28 05:57:46 PM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:14:56 AM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:15:30 AM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:15:48 AM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:15:58 AM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:17:29 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 10:17:30 AM - DownLoadStory - INFO - max_num ==8278500004
+2020/10/29 10:17:30 AM - DownLoadStory - INFO - count_num ==3
+2020/10/29 10:17:30 AM - DownLoadStory - INFO - 4
+2020/10/29 10:17:30 AM - DownLoadStory - INFO - downloadUrl['/book/66/82785/4']
+2020/10/29 10:17:32 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/4.html
+2020/10/29 10:17:32 AM - DownLoadStory - INFO - ['/book/66/82785/4']
+2020/10/29 10:17:32 AM - DownLoadStory - INFO - 8278500004
+2020/10/29 10:17:32 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第4章
+2020/10/29 10:17:32 AM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:17:33 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 10:17:37 AM - DownLoadStory - INFO - max_num ==8278400004
+2020/10/29 10:17:37 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:17:37 AM - DownLoadStory - INFO - 4
+2020/10/29 10:17:37 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 10:17:37 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/37/82783.html
+2020/10/29 10:17:39 AM - DownLoadStory - INFO - max_num ==8278300004
+2020/10/29 10:17:39 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:17:39 AM - DownLoadStory - INFO - 4
+2020/10/29 10:17:39 AM - DownLoadStory - INFO - 小说- - -伯爵大人有点甜- - -未更新
+2020/10/29 10:18:11 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 10:18:13 AM - DownLoadStory - INFO - max_num ==None
+2020/10/29 10:18:13 AM - DownLoadStory - INFO - count_num ==0
+2020/10/29 10:18:13 AM - DownLoadStory - INFO - 4
+2020/10/29 10:18:13 AM - DownLoadStory - INFO - downloadUrl['/book/66/82785/1', '/book/66/82785/2', '/book/66/82785/3', '/book/66/82785/4']
+2020/10/29 10:18:14 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 10:18:14 AM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 10:18:14 AM - DownLoadStory - INFO - 8278500001
+2020/10/29 10:18:15 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 10:18:15 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 10:18:15 AM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 10:18:15 AM - DownLoadStory - INFO - 8278500002
+2020/10/29 10:18:15 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 10:18:16 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/3.html
+2020/10/29 10:18:16 AM - DownLoadStory - INFO - ['/book/66/82785/3']
+2020/10/29 10:18:16 AM - DownLoadStory - INFO - 8278500003
+2020/10/29 10:18:16 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第3章
+2020/10/29 10:18:17 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/4.html
+2020/10/29 10:18:17 AM - DownLoadStory - INFO - ['/book/66/82785/4']
+2020/10/29 10:18:17 AM - DownLoadStory - INFO - 8278500004
+2020/10/29 10:18:17 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第4章
+2020/10/29 10:18:17 AM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:18:18 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 10:18:20 AM - DownLoadStory - INFO - max_num ==8278400004
+2020/10/29 10:18:20 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:18:20 AM - DownLoadStory - INFO - 4
+2020/10/29 10:18:20 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 10:18:20 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/37/82783.html
+2020/10/29 10:18:22 AM - DownLoadStory - INFO - max_num ==8278300004
+2020/10/29 10:18:22 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:18:22 AM - DownLoadStory - INFO - 4
+2020/10/29 10:18:22 AM - DownLoadStory - INFO - 小说- - -伯爵大人有点甜- - -未更新
+2020/10/29 10:21:10 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 10:21:11 AM - DownLoadStory - INFO - max_num ==None
+2020/10/29 10:21:11 AM - DownLoadStory - INFO - count_num ==0
+2020/10/29 10:21:11 AM - DownLoadStory - INFO - 4
+2020/10/29 10:21:11 AM - DownLoadStory - INFO - downloadUrl['/book/66/82785/1', '/book/66/82785/2', '/book/66/82785/3', '/book/66/82785/4']
+2020/10/29 10:21:21 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 10:21:21 AM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 10:21:21 AM - DownLoadStory - INFO - 8278500001
+2020/10/29 10:21:21 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 10:21:22 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 10:21:22 AM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 10:21:22 AM - DownLoadStory - INFO - 8278500002
+2020/10/29 10:21:22 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 10:21:23 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/3.html
+2020/10/29 10:21:23 AM - DownLoadStory - INFO - ['/book/66/82785/3']
+2020/10/29 10:21:23 AM - DownLoadStory - INFO - 8278500003
+2020/10/29 10:21:23 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第3章
+2020/10/29 10:21:25 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/4.html
+2020/10/29 10:21:25 AM - DownLoadStory - INFO - ['/book/66/82785/4']
+2020/10/29 10:21:25 AM - DownLoadStory - INFO - 8278500004
+2020/10/29 10:21:25 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第4章
+2020/10/29 10:21:25 AM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:35:10 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 10:35:11 AM - DownLoadStory - INFO - max_num ==8278500004
+2020/10/29 10:35:11 AM - DownLoadStory - INFO - count_num ==3
+2020/10/29 10:35:11 AM - DownLoadStory - INFO - 4
+2020/10/29 10:35:11 AM - DownLoadStory - INFO - downloadUrl['/book/66/82785/4']
+2020/10/29 10:35:12 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/4.html
+2020/10/29 10:35:12 AM - DownLoadStory - INFO - ['/book/66/82785/4']
+2020/10/29 10:35:12 AM - DownLoadStory - INFO - 8278500004
+2020/10/29 10:35:12 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第4章
+2020/10/29 10:35:12 AM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 10:35:12 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 10:35:13 AM - DownLoadStory - INFO - max_num ==8278400004
+2020/10/29 10:35:13 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:35:13 AM - DownLoadStory - INFO - 4
+2020/10/29 10:35:13 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 10:35:13 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/37/82783.html
+2020/10/29 10:35:15 AM - DownLoadStory - INFO - max_num ==8278300004
+2020/10/29 10:35:15 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:35:15 AM - DownLoadStory - INFO - 4
+2020/10/29 10:35:15 AM - DownLoadStory - INFO - 小说- - -伯爵大人有点甜- - -未更新
+2020/10/29 10:55:43 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 10:55:44 AM - DownLoadStory - INFO - count_num ==3
+2020/10/29 10:55:44 AM - DownLoadStory - INFO - 4
+2020/10/29 10:55:45 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 10:55:45 AM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 10:55:45 AM - DownLoadStory - INFO - 8278500002
+2020/10/29 10:55:45 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 10:55:45 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 10:55:46 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:55:46 AM - DownLoadStory - INFO - 4
+2020/10/29 10:55:46 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 10:55:46 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/37/82783.html
+2020/10/29 10:55:48 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:55:48 AM - DownLoadStory - INFO - 4
+2020/10/29 10:55:48 AM - DownLoadStory - INFO - 小说- - -伯爵大人有点甜- - -未更新
+2020/10/29 10:56:37 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 10:56:38 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:56:38 AM - DownLoadStory - INFO - 5
+2020/10/29 10:56:42 AM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/5.html
+2020/10/29 10:56:42 AM - DownLoadStory - INFO - ['/book/66/82785/5']
+2020/10/29 10:56:42 AM - DownLoadStory - INFO - 8278500005
+2020/10/29 10:56:42 AM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第5章
+2020/10/29 10:56:42 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 10:56:44 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:56:44 AM - DownLoadStory - INFO - 5
+2020/10/29 10:56:46 AM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/5.html
+2020/10/29 10:56:46 AM - DownLoadStory - INFO - ['/book/78/82784/5']
+2020/10/29 10:56:46 AM - DownLoadStory - INFO - 8278400005
+2020/10/29 10:56:46 AM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第5章
+2020/10/29 10:56:46 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/37/82783.html
+2020/10/29 10:56:47 AM - DownLoadStory - INFO - count_num ==4
+2020/10/29 10:56:47 AM - DownLoadStory - INFO - 5
+2020/10/29 10:56:53 AM - DownLoadStory - INFO - http://m.qishudu.com/book/37/82783/5.html
+2020/10/29 10:56:53 AM - DownLoadStory - INFO - ['/book/37/82783/5']
+2020/10/29 10:56:53 AM - DownLoadStory - INFO - 8278300005
+2020/10/29 10:56:53 AM - DownLoadStory - INFO - 更新小说- -伯爵大人有点甜- -第5章
+2020/10/29 11:01:23 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 11:01:24 AM - DownLoadStory - INFO - count_num ==5
+2020/10/29 11:01:24 AM - DownLoadStory - INFO - 5
+2020/10/29 11:01:24 AM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/29 11:01:24 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 11:01:24 AM - DownLoadStory - INFO - count_num ==5
+2020/10/29 11:01:24 AM - DownLoadStory - INFO - 5
+2020/10/29 11:01:24 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 11:01:24 AM - DownLoadStory - INFO - http://m.xsqishu.com/book/37/82783.html
+2020/10/29 11:01:25 AM - DownLoadStory - INFO - count_num ==5
+2020/10/29 11:01:25 AM - DownLoadStory - INFO - 5
+2020/10/29 11:01:25 AM - DownLoadStory - INFO - 小说- - -伯爵大人有点甜- - -未更新

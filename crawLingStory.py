@@ -9,8 +9,10 @@ from util.getStoryContentUrl import getStoryContentUrl
 from util.downLoadStory import downLoadStory
 from util.storyWriteTxt import storyWriteTxt
 from mysql.allStoryUrlMysql import getSrotyUrl
+from mysql.mySQL import MySQL
+db=MySQL()
 def main():
-    url=getSrotyUrl(storynums)
+    url=db.getSrotyUrl(storynums)
     for i in url:
         urls_dict=getStoryContentUrl(i[0],i[1])
         for storyno,urls in urls_dict.items():

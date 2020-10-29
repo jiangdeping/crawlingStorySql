@@ -49,7 +49,7 @@ from mysql.connectMysql import con_db
 #         urls.append(result[i][0])
 #     return urls
 #     db.close()
-def insertStory(url,text,storyno):
+def insertStory(url,text,storyno): #111111111111
     storytitle=getStoryTitle(storyno)
     db = con_db()
     cursor = db.cursor()
@@ -78,7 +78,7 @@ def insertStory(url,text,storyno):
 #     else:
 #         return True
 #     db.close()
-def getStoryNum(storyno):
+def getStoryNum(storyno): ####111111111
     dict = {}
     db = con_db()
     cursor = db.cursor()
@@ -101,7 +101,7 @@ def getStoryNum(storyno):
 #         return True
 # #     db.close()
 
-def getDownLoadUrl(urls):
+def getDownLoadUrl(urls): #111111111111
     downloadurl = []
     db = con_db()
     cursor = db.cursor()
@@ -114,7 +114,7 @@ def getDownLoadUrl(urls):
             downloadurl.append(url)
     db.close()
     return downloadurl
-def getAllStoryText():  # 全量下载
+def getAllStoryText():  # 全量下载   ,已废弃
     logging.info("- - -全量下载- - -")
     dict = {}
     db = con_db()
@@ -125,7 +125,7 @@ def getAllStoryText():  # 全量下载
     for i in result:
         dict[i[0]] = i[1]
     return dict
-def getStoryText(urls):  # 增量下载
+def getStoryText(urls):  # 增量下载， ,已废弃
     logging.info("- - -增量下载- - -")
     db = con_db()
     cursor = db.cursor()
@@ -139,10 +139,12 @@ def getStoryText(urls):  # 增量下载
             dict[i[0]] = i[1]
     db.close()
     return dict
-def getStoryTitle(storyno):
+def getStoryTitle(storyno):#11111111111111111
     db = con_db()
     cursor = db.cursor()
     sql = "SELECT STORYTITLE FROM STORY_URL WHERE storyno=%s" % (storyno)
+    print(sql)
     cursor.execute(sql)
     stroytitle=cursor.fetchall()[0][0]
     return stroytitle
+print(getStoryTitle("82785"))

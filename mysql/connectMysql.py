@@ -4,7 +4,7 @@
 import MySQLdb
 from config import config
 import configparser as cparser
-def con_db():
+def con_db():#1111
     filpath = config.dbpath
     cf = cparser.ConfigParser()
     cf.read(filpath)

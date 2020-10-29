@@ -24944,3 +24944,317 @@
 2020/10/29 05:31:58 PM - DownLoadStory - INFO - count_num ==4
 2020/10/29 05:31:58 PM - DownLoadStory - INFO - 4
 2020/10/29 05:31:58 PM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 10:09:57 PM - DownLoadStory - INFO - SELECT count(*) FROM STORY where story_no=82785
+2020/10/29 11:00:12 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:00:12 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:00:12 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:00:12 PM - DownLoadStory - INFO - 0
+2020/10/29 11:01:01 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:01:01 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:01:01 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:01:01 PM - DownLoadStory - INFO - 0
+2020/10/29 11:01:01 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:01:01 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:01:59 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:01:59 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:01:59 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:01:59 PM - DownLoadStory - INFO - 0
+2020/10/29 11:01:59 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:01:59 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:01:59 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:02:40 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:02:40 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:02:40 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:02:40 PM - DownLoadStory - INFO - 0
+2020/10/29 11:02:40 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:02:40 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:02:40 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:02:40 PM - DownLoadStory - INFO - 1
+2020/10/29 11:05:31 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:05:31 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:05:31 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:05:31 PM - DownLoadStory - INFO - 0
+2020/10/29 11:05:31 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:05:31 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:05:32 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:05:32 PM - DownLoadStory - INFO - 1
+2020/10/29 11:05:45 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:05:45 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:05:45 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:05:45 PM - DownLoadStory - INFO - 0
+2020/10/29 11:05:45 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:05:45 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:05:45 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:05:45 PM - DownLoadStory - INFO - 1
+2020/10/29 11:06:55 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:06:55 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:06:55 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:06:55 PM - DownLoadStory - INFO - 0
+2020/10/29 11:06:55 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:06:55 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:06:55 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:06:55 PM - DownLoadStory - INFO - 1
+2020/10/29 11:09:57 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:09:57 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:09:57 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:09:57 PM - DownLoadStory - INFO - 0
+2020/10/29 11:09:57 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:09:57 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:09:57 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:09:57 PM - DownLoadStory - INFO - 1
+2020/10/29 11:12:07 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:12:07 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:12:07 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:12:07 PM - DownLoadStory - INFO - 0
+2020/10/29 11:12:07 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:12:07 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:12:07 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:12:07 PM - DownLoadStory - INFO - 1
+2020/10/29 11:13:39 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:13:39 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:13:39 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:13:39 PM - DownLoadStory - INFO - 1
+2020/10/29 11:13:39 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:13:39 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:13:39 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:13:39 PM - DownLoadStory - INFO - 1
+2020/10/29 11:15:26 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:15:26 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:15:26 PM - DownLoadStory - INFO - notdownloadsql
+2020/10/29 11:15:26 PM - DownLoadStory - INFO - 1
+2020/10/29 11:15:26 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:15:26 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:15:26 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:15:26 PM - DownLoadStory - INFO - 1
+2020/10/29 11:41:04 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:41:04 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:41:04 PM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/29 11:41:04 PM - DownLoadStory - INFO - 1
+2020/10/29 11:41:04 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:41:04 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:41:04 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:41:04 PM - DownLoadStory - INFO - 1
+2020/10/29 11:46:06 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:46:06 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:46:07 PM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/29 11:46:07 PM - DownLoadStory - INFO - 1
+2020/10/29 11:46:07 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:46:07 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:46:07 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:46:07 PM - DownLoadStory - INFO - 1
+2020/10/29 11:47:47 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:47:47 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:47:48 PM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/29 11:47:48 PM - DownLoadStory - INFO - 1
+2020/10/29 11:47:48 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:47:48 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:47:48 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:47:48 PM - DownLoadStory - INFO - 1
+2020/10/29 11:48:35 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:48:35 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:48:35 PM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/29 11:48:35 PM - DownLoadStory - INFO - 1
+2020/10/29 11:48:35 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:48:35 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:48:35 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:48:35 PM - DownLoadStory - INFO - 1
+2020/10/29 11:49:28 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:49:28 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:49:28 PM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/29 11:49:28 PM - DownLoadStory - INFO - 0
+2020/10/29 11:49:28 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:49:28 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:49:28 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:49:28 PM - DownLoadStory - INFO - 1
+2020/10/29 11:49:42 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:49:42 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:49:43 PM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/29 11:49:43 PM - DownLoadStory - INFO - 1
+2020/10/29 11:49:43 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:49:43 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:49:43 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:49:43 PM - DownLoadStory - INFO - 0
+2020/10/29 11:49:56 PM - DownLoadStory - INFO - allnums
+2020/10/29 11:49:56 PM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/29 11:49:57 PM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/29 11:49:57 PM - DownLoadStory - INFO - 1
+2020/10/29 11:49:57 PM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/29 11:49:57 PM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/29 11:49:57 PM - DownLoadStory - INFO - maxchapternum_state
+2020/10/29 11:49:57 PM - DownLoadStory - INFO - 1
+2020/10/30 12:11:17 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:11:17 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:11:17 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:11:17 AM - DownLoadStory - INFO - 1
+2020/10/30 12:11:17 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:11:17 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:11:17 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:11:17 AM - DownLoadStory - INFO - 1
+2020/10/30 12:11:54 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:11:54 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:11:54 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:11:54 AM - DownLoadStory - INFO - 1
+2020/10/30 12:11:54 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:11:54 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:11:54 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:11:54 AM - DownLoadStory - INFO - 1
+2020/10/30 12:12:40 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:12:40 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:12:40 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:12:40 AM - DownLoadStory - INFO - 1
+2020/10/30 12:12:40 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:12:40 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:12:40 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:12:40 AM - DownLoadStory - INFO - 1
+2020/10/30 12:14:02 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:14:02 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:14:02 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:14:02 AM - DownLoadStory - INFO - 1
+2020/10/30 12:14:02 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:14:02 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:14:02 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:14:02 AM - DownLoadStory - INFO - 1
+2020/10/30 12:15:39 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:15:39 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:15:39 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:15:39 AM - DownLoadStory - INFO - 1
+2020/10/30 12:15:39 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:15:39 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:15:39 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:15:39 AM - DownLoadStory - INFO - 1
+2020/10/30 12:15:55 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:15:55 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:15:55 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:15:55 AM - DownLoadStory - INFO - 1
+2020/10/30 12:15:55 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:15:55 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:15:55 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:15:55 AM - DownLoadStory - INFO - 1
+2020/10/30 12:16:28 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:16:28 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:16:28 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:16:28 AM - DownLoadStory - INFO - 1
+2020/10/30 12:16:28 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:16:28 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:16:28 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:16:28 AM - DownLoadStory - INFO - 1
+2020/10/30 12:16:55 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:16:55 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:16:55 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:16:55 AM - DownLoadStory - INFO - 1
+2020/10/30 12:16:55 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:16:55 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:16:55 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:16:55 AM - DownLoadStory - INFO - 1
+2020/10/30 12:17:11 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:17:11 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:17:11 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:17:11 AM - DownLoadStory - INFO - 1
+2020/10/30 12:17:11 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:17:11 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:17:11 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:17:11 AM - DownLoadStory - INFO - 1
+2020/10/30 12:18:18 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:18:18 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:18:18 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:18:18 AM - DownLoadStory - INFO - 1
+2020/10/30 12:18:18 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:18:18 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:18:18 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:18:18 AM - DownLoadStory - INFO - 1
+2020/10/30 12:19:09 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:19:09 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:19:09 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:19:09 AM - DownLoadStory - INFO - 1
+2020/10/30 12:19:09 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:19:09 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:19:09 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:19:09 AM - DownLoadStory - INFO - 1
+2020/10/30 12:20:03 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:20:03 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:20:03 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:20:03 AM - DownLoadStory - INFO - 1
+2020/10/30 12:20:03 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:20:03 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:20:03 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:20:03 AM - DownLoadStory - INFO - 1
+2020/10/30 12:20:05 AM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/30 12:20:06 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/30 12:38:42 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:38:42 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:38:42 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:38:42 AM - DownLoadStory - INFO - 1
+2020/10/30 12:38:42 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:38:42 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:38:42 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:38:42 AM - DownLoadStory - INFO - 1
+2020/10/30 12:40:03 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:40:03 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:40:03 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:40:03 AM - DownLoadStory - INFO - 1
+2020/10/30 12:40:03 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:40:03 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:40:03 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:40:03 AM - DownLoadStory - INFO - 1
+2020/10/30 12:46:20 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:46:20 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:46:20 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:46:20 AM - DownLoadStory - INFO - 1
+2020/10/30 12:46:20 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:46:20 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:46:20 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:46:20 AM - DownLoadStory - INFO - 1
+2020/10/30 12:46:29 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:46:29 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:46:29 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:46:29 AM - DownLoadStory - INFO - 1
+2020/10/30 12:46:29 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:46:29 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:46:29 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:46:29 AM - DownLoadStory - INFO - 1
+2020/10/30 12:46:31 AM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/30 12:46:32 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/30 12:47:03 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:47:03 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:47:03 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:47:03 AM - DownLoadStory - INFO - 1
+2020/10/30 12:47:03 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:47:03 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:47:03 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:47:03 AM - DownLoadStory - INFO - 1
+2020/10/30 12:47:05 AM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/30 12:47:08 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/30 12:48:52 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:48:52 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:48:52 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:48:52 AM - DownLoadStory - INFO - 1
+2020/10/30 12:48:52 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:48:52 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:48:52 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:48:52 AM - DownLoadStory - INFO - 1
+2020/10/30 12:49:44 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:49:44 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:49:44 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:49:44 AM - DownLoadStory - INFO - 1
+2020/10/30 12:49:44 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:49:44 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:49:44 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:49:44 AM - DownLoadStory - INFO - 1
+2020/10/30 12:51:36 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:51:36 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:51:36 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:51:36 AM - DownLoadStory - INFO - 1
+2020/10/30 12:51:36 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:51:36 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:51:36 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:51:36 AM - DownLoadStory - INFO - 1
+2020/10/30 12:52:16 AM - DownLoadStory - INFO - allnums
+2020/10/30 12:52:16 AM - DownLoadStory - INFO - ['8278500001', '8278500002', '8278500003', '8278500004']
+2020/10/30 12:52:16 AM - DownLoadStory - INFO - withOutdownloadCount
+2020/10/30 12:52:16 AM - DownLoadStory - INFO - 1
+2020/10/30 12:52:16 AM - DownLoadStory - INFO - maxchapternum_sql
+2020/10/30 12:52:16 AM - DownLoadStory - INFO - select state from story where chapter_num=8278500004
+2020/10/30 12:52:16 AM - DownLoadStory - INFO - maxchapternum_state
+2020/10/30 12:52:16 AM - DownLoadStory - INFO - 1
+2020/10/30 12:52:19 AM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/30 12:52:21 AM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新

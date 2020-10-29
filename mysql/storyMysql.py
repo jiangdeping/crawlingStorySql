@@ -56,11 +56,10 @@ def insertStory(url,text,storyno):
     logging.info(url)
     reg=re.compile(r'http://m.qishudu.com(.+).html')
     identical=reg.findall(url)  #同一小说相同的部分
-    logging.info(identical)
+    # logging.info(identical)
     chapter_reg = re.compile(r'%s/(\d+).html'%identical)
     chapter_num =str(chapter_reg.findall(url)[0])
     new_chapter_num=storyno+chapter_num.zfill(5)
-    logging.info(new_chapter_num)
     chapter = "第" + str(chapter_num) + "章"
     sql = "INSERT INTO story(chapter,url,text,chapter_num,story_no,state) VALUES ('{}','{}','{}','{}',{},{})".format(chapter, url, text,new_chapter_num,storyno,0)
     cursor.execute(sql)
@@ -103,7 +102,6 @@ def getStoryNum(storyno):
 # #     db.close()
 
 def getDownLoadUrl(urls):
-    print(urls)
     downloadurl = []
     db = con_db()
     cursor = db.cursor()
@@ -146,5 +144,5 @@ def getStoryTitle(storyno):
     cursor = db.cursor()
     sql = "SELECT STORYTITLE FROM STORY_URL WHERE storyno=%s" % (storyno)
     cursor.execute(sql)
-    stroytitle = cursor.fetchall()[0][0]
+    stroytitle=cursor.fetchall()[0][0]
     return stroytitle

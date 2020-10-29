@@ -10,7 +10,7 @@ def getStoryContentUrl(storyno,url):
     s = requests.session()
     s.keep_alive = False
     flag = True
-    logging.info(url)
+    # logging.info(url)
     while flag:
         try:
             user_agent = user_Agent()

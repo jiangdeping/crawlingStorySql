@@ -24571,3 +24571,376 @@
 2020/10/29 11:01:25 AM - DownLoadStory - INFO - count_num ==5
 2020/10/29 11:01:25 AM - DownLoadStory - INFO - 5
 2020/10/29 11:01:25 AM - DownLoadStory - INFO - 小说- - -伯爵大人有点甜- - -未更新
+2020/10/29 03:03:17 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:03:41 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 03:03:41 PM - DownLoadStory - INFO - 2
+2020/10/29 03:05:11 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:05:12 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 03:05:12 PM - DownLoadStory - INFO - 2
+2020/10/29 03:05:13 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 03:05:13 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 03:05:13 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 03:05:13 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 03:05:15 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 03:05:15 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 03:05:15 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 03:05:15 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 03:06:41 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:06:42 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 03:06:42 PM - DownLoadStory - INFO - 2
+2020/10/29 03:06:45 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 03:06:45 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 03:06:45 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 03:06:45 PM - DownLoadStory - INFO - 更新小说- -(('反转从林平之开始',),)- -第1章
+2020/10/29 03:06:47 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 03:06:47 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 03:06:47 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 03:06:47 PM - DownLoadStory - INFO - 更新小说- -(('反转从林平之开始',),)- -第2章
+2020/10/29 03:07:22 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:07:23 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 03:07:23 PM - DownLoadStory - INFO - 2
+2020/10/29 03:07:24 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 03:07:24 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 03:07:24 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 03:07:24 PM - DownLoadStory - INFO - 更新小说- -(('反转从林平之开始',),)- -第1章
+2020/10/29 03:07:25 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 03:07:25 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 03:07:25 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 03:07:25 PM - DownLoadStory - INFO - 更新小说- -(('反转从林平之开始',),)- -第2章
+2020/10/29 03:08:24 PM - DownLoadStory - INFO - - - -增量下载- - -
+2020/10/29 03:09:27 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:09:29 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 03:09:29 PM - DownLoadStory - INFO - 2
+2020/10/29 03:09:50 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/66/82785/1.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B4C4672248>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020/10/29 03:09:51 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 03:09:51 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 03:09:51 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 03:09:51 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 03:09:52 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 03:09:52 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 03:09:52 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 03:09:52 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 03:13:28 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:13:30 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 03:13:30 PM - DownLoadStory - INFO - 2
+2020/10/29 03:13:51 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/66/82785/1.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AAB5571048>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020/10/29 03:13:53 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 03:13:53 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 03:13:53 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 03:13:53 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 03:13:54 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 03:13:54 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 03:13:54 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 03:13:54 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 03:16:37 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:16:39 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 03:16:39 PM - DownLoadStory - INFO - 2
+2020/10/29 03:16:40 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 03:16:40 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 03:16:40 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 03:16:40 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 03:16:42 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 03:16:42 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 03:16:42 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 03:16:42 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 03:17:02 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:17:02 PM - DownLoadStory - INFO - count_num ==2
+2020/10/29 03:17:02 PM - DownLoadStory - INFO - 2
+2020/10/29 03:17:02 PM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/29 03:17:02 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 03:17:04 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 03:17:04 PM - DownLoadStory - INFO - 2
+2020/10/29 03:17:26 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/78/82784/1.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E02CD04648>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020/10/29 03:17:28 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/1.html
+2020/10/29 03:17:28 PM - DownLoadStory - INFO - ['/book/78/82784/1']
+2020/10/29 03:17:28 PM - DownLoadStory - INFO - 8278400001
+2020/10/29 03:17:28 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第1章
+2020/10/29 03:17:29 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/2.html
+2020/10/29 03:17:29 PM - DownLoadStory - INFO - ['/book/78/82784/2']
+2020/10/29 03:17:29 PM - DownLoadStory - INFO - 8278400002
+2020/10/29 03:17:29 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第2章
+2020/10/29 03:17:47 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 03:17:50 PM - DownLoadStory - INFO - count_num ==2
+2020/10/29 03:17:50 PM - DownLoadStory - INFO - 2
+2020/10/29 03:17:50 PM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/29 03:17:50 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 03:17:50 PM - DownLoadStory - INFO - count_num ==2
+2020/10/29 03:17:50 PM - DownLoadStory - INFO - 2
+2020/10/29 03:17:50 PM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 04:30:38 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:30:41 PM - DownLoadStory - INFO - count_num ==2
+2020/10/29 04:30:41 PM - DownLoadStory - INFO - 2
+2020/10/29 04:30:41 PM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/29 04:30:41 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/78/82784.html
+2020/10/29 04:30:42 PM - DownLoadStory - INFO - count_num ==2
+2020/10/29 04:30:42 PM - DownLoadStory - INFO - 2
+2020/10/29 04:30:42 PM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 04:31:20 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:31:21 PM - DownLoadStory - INFO - count_num ==2
+2020/10/29 04:31:21 PM - DownLoadStory - INFO - 2
+2020/10/29 04:32:09 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:32:09 PM - DownLoadStory - INFO - count_num ==2
+2020/10/29 04:32:09 PM - DownLoadStory - INFO - 2
+2020/10/29 04:33:04 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:33:05 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:33:05 PM - DownLoadStory - INFO - 2
+2020/10/29 04:33:27 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/66/82785/1.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015CBC13B988>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020/10/29 04:33:28 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:33:28 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:33:28 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:33:28 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:33:28 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:33:28 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:33:28 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:33:28 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:35:33 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:35:34 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:35:34 PM - DownLoadStory - INFO - 2
+2020/10/29 04:35:35 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:35:35 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:35:35 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:35:35 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:35:36 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:35:36 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:35:36 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:35:36 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:36:00 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:36:01 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:36:01 PM - DownLoadStory - INFO - 2
+2020/10/29 04:36:02 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:36:02 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:36:02 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:36:02 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:36:03 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:36:03 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:36:03 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:36:03 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:36:46 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:36:46 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:36:46 PM - DownLoadStory - INFO - 2
+2020/10/29 04:36:48 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:36:48 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:36:48 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:36:48 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:36:49 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:36:49 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:36:49 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:36:49 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:37:52 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:37:53 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:37:53 PM - DownLoadStory - INFO - 2
+2020/10/29 04:37:54 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:37:54 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:37:54 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:37:54 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:37:54 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:37:54 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:37:54 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:37:55 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:39:59 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:40:00 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:40:00 PM - DownLoadStory - INFO - 2
+2020/10/29 04:40:01 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:40:01 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:40:01 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:40:01 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:40:01 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:40:01 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:40:01 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:40:01 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:40:36 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:40:37 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:40:37 PM - DownLoadStory - INFO - 2
+2020/10/29 04:40:38 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:40:38 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:40:38 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:40:38 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:40:39 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:40:39 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:40:39 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:40:39 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:41:47 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:41:47 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:41:47 PM - DownLoadStory - INFO - 2
+2020/10/29 04:42:07 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/66/82785/1.html (Caused by ProtocolError('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)))
+2020/10/29 04:42:13 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:42:13 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:42:13 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:42:13 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:42:14 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:42:14 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:42:14 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:42:14 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:43:30 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:43:31 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 04:43:31 PM - DownLoadStory - INFO - 2
+2020/10/29 04:43:32 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:43:32 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:43:32 PM - DownLoadStory - INFO - 8278500001
+2020/10/29 04:43:32 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:43:33 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:43:33 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:43:33 PM - DownLoadStory - INFO - 8278500002
+2020/10/29 04:43:33 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:43:33 PM - DownLoadStory - INFO - 82785
+2020/10/29 04:47:04 PM - DownLoadStory - INFO - http://m.xsqishu.com/book/66/82785.html
+2020/10/29 04:47:06 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:47:06 PM - DownLoadStory - INFO - ['/book/66/82785/1']
+2020/10/29 04:47:06 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:47:07 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:47:07 PM - DownLoadStory - INFO - ['/book/66/82785/2']
+2020/10/29 04:47:07 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:47:07 PM - DownLoadStory - INFO - 82785
+2020/10/29 04:50:43 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:50:44 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:50:44 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:50:44 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:50:44 PM - DownLoadStory - INFO - 82785
+2020/10/29 04:52:27 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:52:27 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:52:28 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:52:28 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:52:28 PM - DownLoadStory - INFO - 82785
+2020/10/29 04:54:20 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:54:20 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:54:30 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/66/82785/2.html (Caused by ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2020/10/29 04:54:31 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:54:31 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:54:31 PM - DownLoadStory - INFO - 82785
+2020/10/29 04:54:31 PM - DownLoadStory - INFO - ---
+2020/10/29 04:54:31 PM - DownLoadStory - INFO - 8
+2020/10/29 04:54:31 PM - DownLoadStory - INFO - ---
+2020/10/29 04:57:06 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:57:06 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:57:07 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:57:07 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:57:07 PM - DownLoadStory - INFO - 82785
+2020/10/29 04:58:11 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 04:58:11 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 04:58:11 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 04:58:11 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 04:58:11 PM - DownLoadStory - INFO - 82785
+2020/10/29 04:58:14 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/1.html
+2020/10/29 04:58:14 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第1章
+2020/10/29 04:58:15 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/2.html
+2020/10/29 04:58:15 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第2章
+2020/10/29 04:58:15 PM - DownLoadStory - INFO - 82784
+2020/10/29 04:58:32 PM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/29 04:58:36 PM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新
+2020/10/29 05:00:33 PM - DownLoadStory - INFO - 反转从林平之开始
+2020/10/29 05:01:14 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 05:01:14 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 05:01:15 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 05:01:15 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 05:01:15 PM - DownLoadStory - INFO - 82785
+2020/10/29 05:01:15 PM - DownLoadStory - INFO - 反转从林平之开始
+2020/10/29 05:01:19 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/1.html
+2020/10/29 05:01:19 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第1章
+2020/10/29 05:01:20 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/2.html
+2020/10/29 05:01:20 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第2章
+2020/10/29 05:01:20 PM - DownLoadStory - INFO - 82784
+2020/10/29 05:01:20 PM - DownLoadStory - INFO - 我是你的猫大人
+2020/10/29 05:27:59 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 05:27:59 PM - DownLoadStory - INFO - 5
+2020/10/29 05:28:00 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 05:28:00 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 05:28:01 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 05:28:01 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 05:28:02 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/3.html
+2020/10/29 05:28:02 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第3章
+2020/10/29 05:28:03 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/4.html
+2020/10/29 05:28:03 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第4章
+2020/10/29 05:28:04 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/5.html
+2020/10/29 05:28:04 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第5章
+2020/10/29 05:28:05 PM - DownLoadStory - INFO - 反转从林平之开始
+2020/10/29 05:28:08 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 05:28:08 PM - DownLoadStory - INFO - 5
+2020/10/29 05:28:29 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/78/82784/1.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025AEF8D6CC8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020/10/29 05:28:30 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/1.html
+2020/10/29 05:28:30 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第1章
+2020/10/29 05:28:31 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/2.html
+2020/10/29 05:28:31 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第2章
+2020/10/29 05:28:32 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/3.html
+2020/10/29 05:28:32 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第3章
+2020/10/29 05:28:34 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/4.html
+2020/10/29 05:28:34 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第4章
+2020/10/29 05:28:35 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/5.html
+2020/10/29 05:28:35 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第5章
+2020/10/29 05:28:35 PM - DownLoadStory - INFO - 我是你的猫大人
+2020/10/29 05:28:38 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 05:28:38 PM - DownLoadStory - INFO - 5
+2020/10/29 05:29:00 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/37/82783/1.html (Caused by ProtocolError('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)))
+2020/10/29 05:29:02 PM - DownLoadStory - INFO - http://m.qishudu.com/book/37/82783/1.html
+2020/10/29 05:29:02 PM - DownLoadStory - INFO - 更新小说- -伯爵大人有点甜- -第1章
+2020/10/29 05:29:03 PM - DownLoadStory - INFO - http://m.qishudu.com/book/37/82783/2.html
+2020/10/29 05:29:03 PM - DownLoadStory - INFO - 更新小说- -伯爵大人有点甜- -第2章
+2020/10/29 05:29:05 PM - DownLoadStory - INFO - http://m.qishudu.com/book/37/82783/3.html
+2020/10/29 05:29:05 PM - DownLoadStory - INFO - 更新小说- -伯爵大人有点甜- -第3章
+2020/10/29 05:29:07 PM - DownLoadStory - INFO - http://m.qishudu.com/book/37/82783/4.html
+2020/10/29 05:29:07 PM - DownLoadStory - INFO - 更新小说- -伯爵大人有点甜- -第4章
+2020/10/29 05:29:08 PM - DownLoadStory - INFO - http://m.qishudu.com/book/37/82783/5.html
+2020/10/29 05:29:08 PM - DownLoadStory - INFO - 更新小说- -伯爵大人有点甜- -第5章
+2020/10/29 05:29:08 PM - DownLoadStory - INFO - 伯爵大人有点甜
+2020/10/29 05:29:26 PM - DownLoadStory - INFO - count_num ==5
+2020/10/29 05:29:26 PM - DownLoadStory - INFO - 2
+2020/10/29 05:29:27 PM - DownLoadStory - INFO - count_num ==5
+2020/10/29 05:29:27 PM - DownLoadStory - INFO - 2
+2020/10/29 05:30:07 PM - DownLoadStory - INFO - count_num ==5
+2020/10/29 05:30:07 PM - DownLoadStory - INFO - 3
+2020/10/29 05:30:08 PM - DownLoadStory - INFO - count_num ==5
+2020/10/29 05:30:08 PM - DownLoadStory - INFO - 3
+2020/10/29 05:30:09 PM - DownLoadStory - INFO - count_num ==5
+2020/10/29 05:30:09 PM - DownLoadStory - INFO - 3
+2020/10/29 05:30:10 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 05:30:10 PM - DownLoadStory - INFO - 3
+2020/10/29 05:30:31 PM - DownLoadStory - ERROR - HTTPConnectionPool(host='m.qishudu.com', port=80): Max retries exceeded with url: /book/12/82782/1.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011EDBACDBC8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+2020/10/29 05:30:32 PM - DownLoadStory - INFO - http://m.qishudu.com/book/12/82782/1.html
+2020/10/29 05:30:32 PM - DownLoadStory - INFO - 更新小说- -我的武功带特效- -第1章
+2020/10/29 05:30:34 PM - DownLoadStory - INFO - http://m.qishudu.com/book/12/82782/2.html
+2020/10/29 05:30:34 PM - DownLoadStory - INFO - 更新小说- -我的武功带特效- -第2章
+2020/10/29 05:30:35 PM - DownLoadStory - INFO - http://m.qishudu.com/book/12/82782/3.html
+2020/10/29 05:30:35 PM - DownLoadStory - INFO - 更新小说- -我的武功带特效- -第3章
+2020/10/29 05:30:35 PM - DownLoadStory - INFO - 我的武功带特效
+2020/10/29 05:30:37 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 05:30:37 PM - DownLoadStory - INFO - 3
+2020/10/29 05:30:38 PM - DownLoadStory - INFO - http://m.qishudu.com/book/54/82781/1.html
+2020/10/29 05:30:38 PM - DownLoadStory - INFO - 更新小说- -大唐农圣- -第1章
+2020/10/29 05:30:38 PM - DownLoadStory - INFO - http://m.qishudu.com/book/54/82781/2.html
+2020/10/29 05:30:38 PM - DownLoadStory - INFO - 更新小说- -大唐农圣- -第2章
+2020/10/29 05:30:39 PM - DownLoadStory - INFO - http://m.qishudu.com/book/54/82781/3.html
+2020/10/29 05:30:39 PM - DownLoadStory - INFO - 更新小说- -大唐农圣- -第3章
+2020/10/29 05:30:39 PM - DownLoadStory - INFO - 大唐农圣
+2020/10/29 05:30:56 PM - DownLoadStory - INFO - count_num ==5
+2020/10/29 05:30:56 PM - DownLoadStory - INFO - 3
+2020/10/29 05:30:57 PM - DownLoadStory - INFO - count_num ==5
+2020/10/29 05:30:57 PM - DownLoadStory - INFO - 3
+2020/10/29 05:30:58 PM - DownLoadStory - INFO - count_num ==5
+2020/10/29 05:30:58 PM - DownLoadStory - INFO - 3
+2020/10/29 05:31:36 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 05:31:36 PM - DownLoadStory - INFO - 4
+2020/10/29 05:31:38 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/1.html
+2020/10/29 05:31:38 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第1章
+2020/10/29 05:31:38 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/2.html
+2020/10/29 05:31:38 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第2章
+2020/10/29 05:31:40 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/3.html
+2020/10/29 05:31:40 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第3章
+2020/10/29 05:31:40 PM - DownLoadStory - INFO - http://m.qishudu.com/book/66/82785/4.html
+2020/10/29 05:31:40 PM - DownLoadStory - INFO - 更新小说- -反转从林平之开始- -第4章
+2020/10/29 05:31:41 PM - DownLoadStory - INFO - 反转从林平之开始
+2020/10/29 05:31:43 PM - DownLoadStory - INFO - count_num ==0
+2020/10/29 05:31:43 PM - DownLoadStory - INFO - 4
+2020/10/29 05:31:44 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/1.html
+2020/10/29 05:31:44 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第1章
+2020/10/29 05:31:45 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/2.html
+2020/10/29 05:31:45 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第2章
+2020/10/29 05:31:46 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/3.html
+2020/10/29 05:31:46 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第3章
+2020/10/29 05:31:46 PM - DownLoadStory - INFO - http://m.qishudu.com/book/78/82784/4.html
+2020/10/29 05:31:46 PM - DownLoadStory - INFO - 更新小说- -我是你的猫大人- -第4章
+2020/10/29 05:31:47 PM - DownLoadStory - INFO - 我是你的猫大人
+2020/10/29 05:31:56 PM - DownLoadStory - INFO - count_num ==4
+2020/10/29 05:31:56 PM - DownLoadStory - INFO - 4
+2020/10/29 05:31:56 PM - DownLoadStory - INFO - 小说- - -反转从林平之开始- - -未更新
+2020/10/29 05:31:58 PM - DownLoadStory - INFO - count_num ==4
+2020/10/29 05:31:58 PM - DownLoadStory - INFO - 4
+2020/10/29 05:31:58 PM - DownLoadStory - INFO - 小说- - -我是你的猫大人- - -未更新

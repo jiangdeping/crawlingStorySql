@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # Author:jiang
 # 2020/10/27 14:35
-downloadnum=5  # 设置 downloadnum=False全量下载
-storynums=3  #下载的故事个数 storynum=Fasle 全量下载
+downloadnum=4  # 设置 downloadnum=False全量下载
+storynums=2  #下载的故事个数 storynum=Fasle 全量下载
 from util.log import logger as logging
 from mysql.storyMysql import getStoryNum, getDownLoadUrl, getStoryTitle,getAllStoryText,getStoryText
 from util.getStoryContentUrl import getStoryContentUrl
@@ -20,9 +20,6 @@ def main():
                 url = urls
             storytitle=getStoryTitle(storyno)
             count_num = getStoryNum(storyno)
-            msg="count_num =="+str(count_num)
-            logging.info(msg)
-            logging.info(len(url))
             if count_num == len(url):
                 msg="小说- - -"+storytitle+"- - -未更新"
                 logging.info(msg)

@@ -93,5 +93,4 @@ def get_story_url(urls):
         msg = title + ":" + download_url
         logging.info(msg)
     return download_urls
-urls = get_index_url(url)[0:1]
-get_story_url(urls)
+

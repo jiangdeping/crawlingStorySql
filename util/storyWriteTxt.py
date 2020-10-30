@@ -2,9 +2,9 @@
 # Author:jiang
 # #
 # from Function.crawlingStorySql.util.mysql import getStoryText,getStoryText
-from mysql.storyWriteTxtSql import getStoryText,getDownLoadChapternum,changeState
+# from mysql.storyWriteTxtSql import getStoryText,getDownLoadChapternum,changeState
 from util.log import logger as loggering
-from mysql.storyMysql import getStoryTitle
+# from mysql.storyMysql import getStoryTitle
 from mysql.mySQL import MySQL
 db=MySQL()
 # db.getStoryTitle()
@@ -31,8 +31,8 @@ def storyWriteTxt(storyno):
     path=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     filename=os.path.join(path,"story\\"+storyTitle+".txt")
         #获取写入txt的章节
-    nums=getDownLoadChapternum(storyno)
-    storydict=getStoryText(nums)
+    nums=db.getDownLoadChapternum(storyno)
+    storydict=db.getStoryText(nums)
         # if state:
         #     os.remove(filename)
     for k, v in storydict.items():
@@ -42,7 +42,7 @@ def storyWriteTxt(storyno):
                 f.write(value)
             except Exception as e:
                 loggering.warn(e)
-    changeState(nums)
+    db.changeState(nums)
 # no=82785
 # storyWriteTxt(no)
 # # nums=getStoryChapterNum(no)

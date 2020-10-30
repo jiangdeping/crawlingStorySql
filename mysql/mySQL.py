@@ -61,8 +61,10 @@ class MySQL(object):
         return index
     def isExistStory(self,STORYNO):
         sql="SELECT count(*) FROM story_url where STORYNO=%s"%STORYNO
+        logging.info(sql)
         self.cur.execute(sql)
         count = self.cur.fetchall()[0][0]  # 多少条数据
+        logging.info(count)
         # logging.info(count)
         if count:
             return True
@@ -104,7 +106,7 @@ class MySQL(object):
         return chapternum
     def getDownLoadSrotyNo(self,num):#获取需要下载小说的No,num为下载故事的个数
         storyno=[]
-        sql="SELECT storyno FROM story_content_url LIMIT %s"%num
+        sql="SELECT DISTINCT(storyno) FROM story_content_url LIMIT %s"%num
         self.cur.execute(sql)
         result=self.cur.fetchall()
         for i in result:

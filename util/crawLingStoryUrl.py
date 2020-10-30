@@ -41,6 +41,7 @@ def get_page_url():
     else:
         logging.info("当前总页数未更新")
 def get_story_urls(urls):
+    db=MySQL()
     stroy_urls = {}
     download_urls = {}
     for url in urls:
@@ -113,6 +114,7 @@ def get_story_urlsnew(url):
     for i in allUrl:
         story_url = "http://m.xsqishu.com/txt/" + i + ".html"
         stroy_urls[i]=story_url
+    logging.info(stroy_urls)
     for num,compileurl in stroy_urls.items():
         requests.adapters.DEFAULT_RETRIES = 5
         s = requests.session()
@@ -130,11 +132,12 @@ def get_story_urlsnew(url):
                 continue
         reg = re.compile(r'<a href="/book/(.+).html" class="bdbtn greenBtn">')
         url = reg.findall(res.text)
+        logging.info("-----------")
+        logging.info(url)
         story_title_reg = re.compile(r'<h1 class="title">(.+)</h1>')
         title = story_title_reg.findall(res.text)[0]
         download_url = "http://m.xsqishu.com/book/" + url[0] + ".html"
-        download_urls.setdefault(num,{title:download_url})
-        # logging.info(num)
+        download_urls[num]=download_url
         if db.isExistStory(num):
             msg="小说"+title+"已入库"
             logging.info(msg)
@@ -142,7 +145,7 @@ def get_story_urlsnew(url):
             db.inertStoryUrl(num,title,download_url)
         # logging.info(download_url)
     return download_urls
-urls=db.getStoryIndex(10)
+# urls=db.getStoryIndex(10)
 
 # starttime=time.time()
 # for url in urls:
@@ -150,13 +153,13 @@ urls=db.getStoryIndex(10)
 # endtime=time.time()
 # print('Cost {} seconds'.format(endtime-starttime))
 
-threads=[]
-starttime=time.time()
-for i in urls:
-    t=Thread(target=get_story_urlsnew,args=[i])
-    t.start()
-    threads.append(t)
-for i in threads:
-    t.join()
-endtime=time.time()
-print('Cost {} seconds'.format(endtime-starttime))
+# threads=[]
+# starttime=time.time()
+# for i in urls:
+#     t=Thread(target=get_story_urlsnew,args=[i])
+#     t.start()
+#     threads.append(t)
+# for i in threads:
+#     t.join()
+# endtime=time.time()
+# print('Cost {} seconds'.format(endtime-starttime))

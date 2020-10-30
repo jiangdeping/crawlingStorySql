@@ -28,10 +28,9 @@ def downLoadStory(storyno,urls):
                 logging.info("- - 连接失败,正在重连- ")
                 logging.error(e)
                 continue
-        print(res.text)
-        text_reg = re.compile(r'<div class="articlecon font-large"><p>(.+)<br><br></p></div>')
+
+        text_reg = re.compile(r'<div class="articlecon font-large"><p>(.+)<br/><br/></p></div>')
         result = text_reg.findall(res.text)
-        logging.info(result)
         new_result = result[0].replace("<br/>", "")
         new_result.lstrip("")
         new_result = re.sub(' +', '\n  ', new_result)

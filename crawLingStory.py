@@ -3,16 +3,38 @@
 # 2020/10/27 14:35
 downloadnum=9 # 设置 downloadnum=False全量下载
 storynums=30 #下载的故事个数 storynum=Fasle 全量下载
+indexnum=2 #小说索引的下载地址
 from util.log import logger as logging
+from threading import Thread,Lock
+import time
 # from mysql.storyMysql import getStoryNum, getDownLoadUrl, getStoryTitle,getAllStoryText,getStoryText
 from util.getStoryContentUrl import getStoryContentUrl
 from util.downLoadStory import downLoadStory
 from util.storyWriteTxt import storyWriteTxt
 # from mysql.allStoryUrlMysql import getSrotyUrl
 from mysql.mySQL import MySQL
+from util.crawLingStoryUrl import get_story_urlsnew
 db=MySQL()
 def main():
+    storyUrls=db.getStoryIndex(indexnum) #获取下载小说的地址
     storynos=db.getDownLoadSrotyNo(storynums)
+    if len(storynos)==False:
+        logging.info(storyUrls)
+        for i in storyUrls:
+            dict=get_story_urlsnew(i)
+            for k,v in dict.items():
+                getStoryContentUrl(k,v)
+        # threads=[]
+        # starttime=time.time()
+        # for i in storyUrls:
+        #     t=Thread(target=get_story_urlsnew,args=[i])
+        #     t.start()
+        #     threads.append(t)
+        # for i in threads:
+        #     t.join()
+        # endtime=time.time()
+        # print('Cost {} seconds'.format(endtime-starttime))
+
     for storyno in storynos:
         newdownLoadUrl=[]
         storytitle=db.getStoryTitle(storyno)

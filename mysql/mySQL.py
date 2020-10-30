@@ -104,7 +104,7 @@ class MySQL(object):
         return chapternum
     def getDownLoadSrotyNo(self,num):#获取需要下载小说的No,num为下载故事的个数
         storyno=[]
-        sql="SELECT storyno FROM story_url LIMIT %s"%num
+        sql="SELECT storyno FROM story_content_url LIMIT %s"%num
         self.cur.execute(sql)
         result=self.cur.fetchall()
         for i in result:

@@ -13,7 +13,7 @@ from util.downLoadStory import downLoadStory
 from util.storyWriteTxt import storyWriteTxt
 # from mysql.allStoryUrlMysql import getSrotyUrl
 from mysql.mySQL import MySQL
-from util.crawLingStoryUrl import get_story_urlsnew
+from util.getStoryIndex import get_story_urlsnew
 db=MySQL()
 def main():
     storyUrls=db.getStoryIndex(indexnum) #获取下载小说的地址

@@ -33,6 +33,5 @@ import re
 #     # if int(first_str)==int(str[])
 #     return newstr
 # print(ll())
-a=[0,1,2]
-b=[0,1]
-print ()
+str1=['8278400002', '8278400003', '8278400004','8278400005','8278400006','8278400007']
+print(str1[0:6])

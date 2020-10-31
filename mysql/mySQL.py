@@ -45,6 +45,17 @@ class MySQL(object):
         sql= "INSERT INTO story_index(storyindexID,storyindexUrl,createtime,updatetime) VALUES ('{}','{}','{}','{}')".format(storyindexID,storyindexUrl, createtime,updatetime)
         self.cur.execute(sql)
         self.conn.commit()
+    def UpdateStoryPageIndex(self,storyindexID):
+        updatetime=datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        sql= "UPDATE story_index set updatetime='{}' where storyindexID='{}'".format(updatetime,storyindexID)
+        self.cur.execute(sql)
+        self.conn.commit()
+     # """
+     #        def changeState(self,nums):#更改状态
+     #    for i in nums:
+     #        sql="update story set state=1 where chapter_num =(%s)"%i
+     #        self.cur.execute(sql)
+     #        self.conn.commit()"""
     def getStoryPageIndexCount(self):
         sql="SELECT count(*) FROM STORY_INDEX"
         self.cur.execute(sql)
@@ -61,23 +72,22 @@ class MySQL(object):
         return index
     def isExistStory(self,STORYNO):
         sql="SELECT count(*) FROM story_url where STORYNO=%s"%STORYNO
-        logging.info(sql)
         self.cur.execute(sql)
         count = self.cur.fetchall()[0][0]  # 多少条数据
-        logging.info(count)
-        # logging.info(count)
         if count:
             return True
         else:
             return False
     def inertStoryUrl(self,storyNo,storyTitle,storyUrl):#插入小说的链接地址
-        sql= "INSERT INTO story_url(storyno,storytitle,storyurl) VALUES ('{}','{}','{}')".format(storyNo, storyTitle,storyUrl)
+        createtime=datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        sql= "INSERT INTO story_url(storyno,storytitle,storyurl,createtime) VALUES ('{}','{}','{}','{}')".format(storyNo, storyTitle,storyUrl,createtime)
         self.cur.execute(sql)
         self.conn.commit()
         msg="新增小说："+storyTitle+"下载地址"
         logging.info(msg)
     def insetStoryContentUrl(self,storyno,storychapter,chapter_num_url):
-        sql= "INSERT INTO story_content_url(storyno,chapter_num,chapter_num_url) VALUES ('{}','{}','{}')".format(storyno, storychapter,chapter_num_url)
+        createtime=datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        sql= "INSERT INTO story_content_url(storyno,chapter_num,chapter_num_url,createtime) VALUES ('{}','{}','{}','{}')".format(storyno, storychapter,chapter_num_url,createtime)
         self.cur.execute(sql)
         self.conn.commit()
     def getStoryContentCount(self,storyno):#获取该小说所有链接地址之和
@@ -96,6 +106,11 @@ class MySQL(object):
             urls.append(i[0])
         # dict[storyno]=urls # 多少条数据
         return urls
+    def getStoryDownUrl(self,storyno):#获取小说对应的下载地址
+        sql="SELECT storyurl FROM story_url LIMIT %s"%storyno
+        self.cur.execute(sql)
+        result=self.cur.fetchall()[0][0]
+        return storyno,result
     def getAreadyStoryDownLoadUrl(self,storyno):#获取已下载小说的章节
         chapternum=[]
         sql = "SELECT CHAPTER_NUM FROM STORY  WHERE STORY_NO=%s ORDER BY CHAPTER_NUM"%storyno
@@ -106,22 +121,19 @@ class MySQL(object):
         return chapternum
     def getDownLoadSrotyNo(self,num):#获取需要下载小说的No,num为下载故事的个数
         storyno=[]
-        sql="SELECT DISTINCT(storyno) FROM story_content_url LIMIT %s"%num
+        sql="SELECT storyno FROM story_url LIMIT %s"%num
         self.cur.execute(sql)
         result=self.cur.fetchall()
         for i in result:
             storyno.append(i[0])
         return storyno
+
     def getSrotyUrl(self,num):#获取需要下载小说的链接地址,num为下载故事的个数
         sql="SELECT storyno,storyurl,storytitle FROM story_url LIMIT %s"%num
         self.cur.execute(sql)
         result=self.cur.fetchall()
         return result
-    def getSrotyDownUrl(self,storyno):#获取需要下载小说的链接地址,num为下载故事的个数
-        sql="SELECT storyurl FROM story_url LIMIT %s"%storyno
-        self.cur.execute(sql)
-        result=self.cur.fetchall()[0][0]
-        return storyno,result
+
 
     def getStorySumChapter_Num(self,storyno):#获取该小说所有章节之和
         count_sql = "SELECT count(*) FROM STORY where story_no=%s"%(storyno)
@@ -155,6 +167,8 @@ class MySQL(object):
         logging.info(storyno)
         storytitle=self.getStoryTitle(storyno)
         logging.info(url)
+        createtime=datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        updatetime=datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         reg=re.compile(r'http://m.xsqishu.com(.+).html')
         identical=reg.findall(url)  #同一小说相同的部分
         # logging.info(identical)
@@ -162,7 +176,7 @@ class MySQL(object):
         chapter_num =str(chapter_reg.findall(url)[0])
         new_chapter_num=storyno+chapter_num.zfill(5)
         chapter = "第" + str(chapter_num) + "章"
-        sql = "INSERT INTO story(chapter,url,text,chapter_num,story_no,state) VALUES ('{}','{}','{}','{}',{},{})".format(chapter, url, text,new_chapter_num,storyno,0)
+        sql = "INSERT INTO story(chapter,url,text,chapter_num,story_no,state,createtime,updatetime) VALUES ('{}','{}','{}','{}',{},{},'{}','{}')".format(chapter, url, text,new_chapter_num,storyno,0,createtime,updatetime)
         self.cur.execute(sql)
         logging_text = "更新小说- -%s- -%s" %(storytitle,chapter)
         logging.info(logging_text)
@@ -199,10 +213,13 @@ class MySQL(object):
         else:
             return handleChaprerNum(downloadchapternum)
     def changeState(self,nums):#更改状态
+        updatetime=datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         for i in nums:
-            sql="update story set state=1 where chapter_num =(%s)"%i
+            sql="update story set state=1 and updatetime='{}' where chapter_num ='{}'".format(updatetime,i)
             self.cur.execute(sql)
             self.conn.commit()
 # db=MySQL()
+# print(db.getDownLoadSrotyNo(2))
+# print(db.getStoryDownUrl(82869))
 # print(db.getSrotyDownUrl(82869))
 # #  print(db.getDownLoadSrotyNo(5))

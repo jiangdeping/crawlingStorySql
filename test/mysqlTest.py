@@ -49,7 +49,7 @@ for id in range(1626, 1700):
             t = q.get()
             join_thread.append(t)
             t.start()
-        # 终止上一次队满时里面的所有线程
+        # 终止上一次队满时里面的所有1线程
         for t in join_thread:
             t.join
 print(time.time()-start)

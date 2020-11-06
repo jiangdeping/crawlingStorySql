@@ -2,7 +2,7 @@
 # Author:jiang
 import re
 import requests
-from config.config import user_Agent
+from config.setting import user_Agent
 from util.log import logger as logging
 
 def get_url(url):

@@ -4,7 +4,7 @@ import re
 import requests, re,time
 # from mysql.storyMysql import insertStory
 from util.log import logger as logging
-from config.config import user_Agent
+from config.setting import user_Agent
 from mysql.mySQL import MySQL
 from threading import Thread
 db=MySQL()
@@ -23,7 +23,7 @@ def downLoadStory(storyno,urls):
                 res = s.get(url, headers=user_agent)
                 flag = False
                 # print(res.headers["User-Agent"])
-                # logging.info(res.headers["User-Agent"])
+                # log.info(res.headers["User-Agent"])
             except Exception as e:
                 logging.info("- - 连接失败,正在重连- ")
                 logging.error(e)

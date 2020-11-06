@@ -5,7 +5,7 @@
 import logging
 import os
 from logging.handlers import TimedRotatingFileHandler
-from config.config import LOG_PATH
+from config.setting import  LOG_PATH
 
 
 class Logger():
@@ -35,19 +35,19 @@ class Logger():
 logger = Logger().get_logger()
 # class Logger(object):
 #     def __init__(self,logger_name='framework'):
-#         self.logger=logging.getLogger(logger_name)
-#         logging.root.setLevel(logging.NOTSET)
+#         self.logger=log.getLogger(logger_name)
+#         log.root.setLevel(log.NOTSET)
 #         self.log_file_name='log'
 #         self.console_output_level="WARNING"
 #         self.backup_count=5
 #         self.file_output_level = 'DEBUG'
-#         self.formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s',datefmt='%Y/%m/%d %I:%M:%S %p')
+#         self.formatter = log.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s',datefmt='%Y/%m/%d %I:%M:%S %p')
 #         self.filename=os.path.join(LOG_PATH,self.log_file_name)
 #     def get_logger(self):
 #         """在logger中添加日志句柄并返回，如果logger已有句柄，则直接返回"""
 #         if not self.logger.handlers:  # 避免重复日志
 #             # 控制台日志
-#             console_handler = logging.StreamHandler()
+#             console_handler = log.StreamHandler()
 #             console_handler.setFormatter(self.formatter)
 #             console_handler.setLevel(self.console_output_level)
 #             self.logger.addHandler(console_handler)

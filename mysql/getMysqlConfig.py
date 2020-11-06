@@ -2,7 +2,8 @@
 #Author:jiang
 #2020/10/28 13:17
 from configparser import ConfigParser
-from config import config
+from config import setting
+
 class ConfigParse(object):
     def __init__(self):
         pass
@@ -10,7 +11,7 @@ class ConfigParse(object):
     def get_db_config(cls):
         #cls使用的类方法,cls就是指定本身
         cls.cfp = ConfigParser()
-        cls.cfp.read(config.dbpath)
+        cls.cfp.read(setting.dbpath)
         host = cls.cfp.get("mysqlconf", "host")
         port = cls.cfp.get("mysqlconf", "port")
         user = cls.cfp.get("mysqlconf", "user")

@@ -64,24 +64,24 @@ def main():
         # #         url = urls[0:downloadnum]
         # #     else:
         # #         url = urls
-        # #     logging.info(url)
+        # #     log.info(url)
         #     #url=['http://m.xsqishu.com/book/100/82862/1.html', 'http://m.xsqishu.com/book/100/82862/2.html']
         #     storytitle=db.getStoryTitle(storyno)
         #     count_num = db.getStorySumChapter_Num(storyno) #获取该小说所有章节之和
-        #     logging.info("len(url)")
-        #     logging.info(len(url))
-        #     logging.info("count_num")
-        #     logging.info(count_num)
+        #     log.info("len(url)")
+        #     log.info(len(url))
+        #     log.info("count_num")
+        #     log.info(count_num)
         #     if len(url)==0:
         #         msg="小说- - -"+storytitle+"- - -暂未提供下载"
-        #         logging.info(msg)
+        #         log.info(msg)
         #     else:
         #         if count_num == len(url):
         #             msg="小说- - -"+storytitle+"- - -未更新"
-        #             logging.info(msg)
+        #             log.info(msg)
         #         if count_num < len(url):
-        #             logging.info("------------")
-        #             logging.info(url)
+        #             log.info("------------")
+        #             log.info(url)
         #             downLoadUrl = db.getDownLoadUrl(url)
         #             downLoadStory(storyno,downLoadUrl)
         #             storyWriteTxt(storyno)

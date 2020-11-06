@@ -1,0 +1,2 @@
+2020/11/06 03:03:07 PM - DownLoadStory - INFO - ----当前已是最新索引,无需更新----
+2020/11/06 03:03:09 PM - DownLoadStory - INFO - SELECT count(*) FROM story_url where STORYNO=83254
